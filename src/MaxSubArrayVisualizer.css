@@ -1,0 +1,29 @@
+.max-sum-display {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Existing styles */
+.array-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.array-item {
+  padding: 10px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current {
+  background-color: yellow; /* Highlight the current item */
+}
+
+.max-subarray {
+  background-color: lightgreen; /* Highlight items in the max subarray */
+}
